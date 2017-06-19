@@ -1,0 +1,21 @@
+{
+  "name": "npm_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "trending",
+    "tweets"
+  ],
+  "author": "Yassine",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^4.0.6",
+    "forever": "^0.15.3",
+    "twit": "^2.2.9"
+  }
+}
